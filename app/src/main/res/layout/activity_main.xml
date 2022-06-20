@@ -10,18 +10,20 @@
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@android:color/holo_orange_light"
-        app:layout_constraintStart_toStartOf="parent"
-        app:tabTextColor="@android:color/holo_orange_dark"
+        android:background="@color/colorOrangeLight"
         android:textAlignment="textStart"
-        app:tabSelectedTextColor="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tabGravity="start"
+        app:tabIndicator="@drawable/custom_tab_indicator"
         app:tabIndicatorColor="@color/colorWhite"
         app:tabIndicatorFullWidth="false"
         app:tabIndicatorGravity="bottom"
         app:tabInlineLabel="true"
-        app:tabMode="scrollable" />
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/colorWhite"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        app:tabTextColor="@color/colorOrangeDark" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"

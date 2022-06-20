@@ -25,8 +25,8 @@ class TabAdapter(fm: FragmentManager) : FragmentPagerAdapter(
 
     override fun getPageTitle(position: Int): CharSequence? {
         return when(position){
-            0 ->"Mobil"
-            1 ->"Kuliner"
+            0 ->"Mobil Sport"
+            1 ->"Kuliner Jawa"
             else->"No Data"
         }
     }

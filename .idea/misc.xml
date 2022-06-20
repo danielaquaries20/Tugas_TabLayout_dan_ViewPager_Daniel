@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio/AndroidProject/Tugas_TabLayout_dan_ViewPager_Daniel/app/src/main/res/drawable/custom_tab_indicator.xml" value="0.1615" />
         <entry key="..\:/Android Studio/AndroidProject/Tugas_TabLayout_dan_ViewPager_Daniel/app/src/main/res/layout/activity_main.xml" value="0.209375" />
         <entry key="..\:/Android Studio/AndroidProject/Tugas_TabLayout_dan_ViewPager_Daniel/app/src/main/res/layout/fragment_car.xml" value="0.209375" />
         <entry key="..\:/Android Studio/AndroidProject/Tugas_TabLayout_dan_ViewPager_Daniel/app/src/main/res/layout/fragment_kuliner.xml" value="0.209375" />
